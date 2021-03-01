@@ -1,1 +1,3 @@
 # old-uC
+
+minimal system.
