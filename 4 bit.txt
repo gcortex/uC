@@ -1,7 +1,7 @@
 4 bit
 -----
 
-4Kx16 rom
+2Kx16 rom
 256×4 ram
 
 NOP,RTS  LD,ST,CMP X,XX  MOV,TST #X,XX  JMP,JSR,JEQ,JNE XXX
