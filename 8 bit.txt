@@ -1,8 +1,8 @@
 8 bit
 -----
 
-8192B rom
-3x128 ram
+4096B rom
+256x8 ram
 
 NOP,RTS,RTI  LDA X+  LDA,STA Xi+  LD,ST Ai,(XX)+  ADD R,XX R,#XX  LD Rd,#X  OR,AND Rd,Rs,#X Rd,#X,xXX  CMP Xn,Xn'
 
