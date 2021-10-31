@@ -2,7 +2,7 @@
 -----
 
 8192B rom
-3x128 ram
+5x64B ram
 
 NOP,RTS,RTI  LDA X+  LDA,STA Xi+  LD,ST Ai,(XX)+  LD Rd,#X  OR,AND Rd,Rs,#X Rd,#X,xXX  TJZ,TJNZ Rs,xXXX  TSTN xXX
 
