@@ -1,8 +1,8 @@
 8/16 bit
 --------
 
-4096B rom
-3x64B ram
+2KB rom
+64B ram
 
 NOP,RTS  LDA ,X+  LDA,STA ,Xi  SHL,ASR,LSR,INC,DEC,NEG,ROR,ROL,DA,COM,ADC,SWAP R  CMP Xn,Xn'  CLR,TST R xX  LDX,CPX #XXXX
 
