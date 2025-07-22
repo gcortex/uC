@@ -13,6 +13,6 @@ BNK n  LDAB,STAB n,-HX n,HX+  OR,AND CC,#X  JBC,JBS Rn,XXX  TJZ,TJNZ CC,#X,XXX  
 
 Nyquest
 Tritan
-Upt
+Upt mcu
 Everest Pacific
 EM micro elec
