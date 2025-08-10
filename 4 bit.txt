@@ -1,9 +1,18 @@
 4 bit
 -----
 
+4Kx12 rom
+160x4 ram
+
+NOP,RTS  SHL,ASR,LSR,ROR,ROL,DA A H X  ST R,xX  CLR,TST HX xX  LDH xX
+
+LD,TST,CMP,CPC,MAX,OR,AND,XOR,ADD,SUB,ADC,SBB R,#X A,xX X,xX  BNK n
+
+ADD,SUB HX,#X  LDA,CPA,STA n,-HX n,HX+  AND,OR CC,#X  TJZ,TJNZ R,#X,XXX
+
+
 Nyquest
 Tritan
 Upt mcu
 Everest Pacific
 EM micro elec
-
