@@ -11,8 +11,8 @@ CLR,TST XX  LD,TST,CMP,CPC,MAX,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ri,XX  LD R,#XX 
 LDA,LDB n,-X n,X+ n,-Y n,Y+  STA,STB -X X+ -Y Y+  MOV #XX,X+  OR,AND,TST CC,#XX  JMP,JSR,JEQ,JNE XXX
 
 
-8Kx12 rom
-576x4 ram
+4Kx12 rom
+320x4 ram
 
 NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA,PUSH,PULL R  CLR,TST,SWP HX  LD,ST,CMP HX,xX  ADD,SUB HX,#X
 
@@ -26,6 +26,7 @@ Tritan
 Upt mcu
 Everest Pacific
 EM micro elec
+
 
 
 
