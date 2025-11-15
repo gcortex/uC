@@ -22,7 +22,7 @@ NOP,RTS  SHL,ASR,LSR,NEG,ROL,ROR,DA,COM,INC,DEC Rd,Rs  BTST n,XX  BNK,PG b  PUSH
 
 CLR,TST Ri XX  MOV,TST,CMP,CPEQ,MAX,OR,AND,XOR,ADD,SUB,ADC,SBB Rij,#X Rij,Rkl  LD,ST Rij,XX Ri,xX
 
-LD Ai,n,-Xj Ai,n,Xj+  ST Ai,-Xj Ai,Xj+  MOV #XX,Xi+  OR,AND,TST CC,#XX  CTST  JMP,JSR,JEQ,JNE XXX
+LD,ST Ai,n,-Xj Ai,n,Xj+  MOV #XX,Xi+  OR,AND,TST CC,#XX  CTST  JMP,JSR,JEQ,JNE XXX
 
 
 Nyquest
@@ -30,5 +30,6 @@ Tritan mcu
 Upt mcu
 Everest Pacific
 EM micro elec
+
 
 
