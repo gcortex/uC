@@ -1,14 +1,14 @@
 4-8 bit
 -------
 
-8Kx16 rom
-640x4 ram
+4Kx16 rom
+384x4 ram
 
-NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Rd,Rs  LD,ST Ri,-Aj Ri,Aj+  BNK n
+NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Rd,Rs  LD,ST Ri,-Aj Ri,Aj+
 
-MOV,TSZ,TSNZ,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Rd,Rs  LPM Dk,p,Aj+
+MOV,TST,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Rd,Rs  LPM Dk,p,Aj+
 
-OR,AND,TSZ,TSNZ CC,#XX  MOV,TSZ,TSNZ #X,XX  LD,ST Ri,XX R,xX  JMP,JSR xXXX
+OR,AND,TST CC,#XX  MOV,TST #X,XX  LD,ST Ri,XX R,xX  JMP,JSR,JEQ,JNE XXX
 
 
 Nyquest
@@ -16,4 +16,3 @@ Tritan mcu
 Upt mcu
 Everest Pacific
 EM micro elec
-
