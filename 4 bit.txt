@@ -6,7 +6,7 @@
 
 NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Ri  LD,ST Ai,-X Ai,X+  ADD,SUB R,#X
 
-TST,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ai,xX  LDA -X X+  PG,BNK n
+TST,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ai,xX  LDA n,-X n,X+  PG,BNK n
 
 OR,AND,TST CC,#xX  MOV xX,X+  LD,ST Ri,xX R,xX  LD Ri,#X  JMP,JSR,JEQ,JNE XX
 
@@ -26,4 +26,5 @@ Tritan mcu
 Upt mcu
 Everest Pacific
 EM micro elec
+
 
