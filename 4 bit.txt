@@ -1,6 +1,16 @@
 4-8 bit
 -------
 
+2Kx12 rom
+9x16B ram
+
+NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Ri  LD,ST Ai,-X Ai,X+  ADD,SUB R,#X
+
+TST,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ai,xX  LDA -X X+  PG,BNK n
+
+OR,AND,TST CC,#xX  LD,ST Ri,xX R,xX  LD Ri,#X  JMP,JSR,JEQ,JNE XX
+
+
 4Kx16 rom
 384x4 ram
 
@@ -16,4 +26,3 @@ Tritan mcu
 Upt mcu
 Everest Pacific
 EM micro elec
-
