@@ -2,9 +2,9 @@
 -------
 
 2Kx12 rom
-9x16B ram
+160x4 ram
 
-NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Ri  LD,ST Ai,-X Ai,X+  ADD,SUB R,#X  PG,BNK n
+NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Ri  LD,ST Ai,-X Ai,X+  ADD,SUB R,#X  PG n  BNK m
 
 TST,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ai,xX  LDA n,-X n,X+  MOV,TST #X,(Xi)
 
