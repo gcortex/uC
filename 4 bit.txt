@@ -4,7 +4,7 @@
 2Kx12 rom
 160x4 ram
 
-NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Ri  LD,ST Ai,-X Ai,X+  ADD,SUB R,#X  CLR,SWAP,TSZ,TSNZ A X
+NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Ri  LD,ST Ai,-X Ai,X+  ADD,SUB R,#X  CLR,TSZ,TSNZ xX
 
 TSZ,TSNZ,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ai,xX  LD Ri,#X  LDA n,-X n,X+  PG,BNK n
 
@@ -16,3 +16,4 @@ Tritan mcu
 Upt mcu
 Everest Pacific
 EM micro elec
+
