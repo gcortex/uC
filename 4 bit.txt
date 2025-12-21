@@ -8,7 +8,7 @@ NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Ri  LD,ST Ai,-X Ai,X+  ADD,SUB R,#X  CLR,TSZ,TSN
 
 TSZ,TSNZ,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ai,xX  LD Ri,#X  LDA n,-X n,X+  PG,BNK n
 
-MOV,TSZ,TSNZ #X,(Xi)  OR,AND,TSZ,TSNZ CC,#xX  MOV xX,X+  LD,ST Ri,xX R,xX  JMP xXX  JSR XX
+MOV,TSZ,TSNZ #X,(Xi)  OR,AND,TSZ,TSNZ CC,#xX  MOV xX,X+  LD,ST Ri,xX R,xX  JMP,JSR XX
 
 
 Nyquest
@@ -16,4 +16,3 @@ Tritan mcu
 Upt mcu
 Everest Pacific
 EM micro elec
-
