@@ -1,14 +1,14 @@
 4-8 bit
 -------
 
-2Kx12 rom
-160x4 ram
+8192B rom
+5x64B ram
 
-NOP,RTS  SHL,ASR,LSR,ROL,ROR,DA Ri  LD,ST Ai,-X Ai,X+  ADD,SUB R,#X  CLR,TSZ,TSNZ xX
+NOP,RTS  SHL,ASR,LSR,NEG,ROL,ROR,DA,COM,CLR,TST,INC,DEC,ADC Ai Bi  BNK n  ST R,xX  LD Ri,#X Ri,XX  INC,DEC,PUSH,PULL R
 
-TSZ,TSNZ,CMP,CPC,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ai,xX  LD Ri,#X  LDA n,-X n,X+  PG,BNK n
+CLR,TST R XX  TST,CMP,CPEQ,OR,AND,XOR,ADD,SUB,ADC,SBB Ri,#X Ai,XX Bi,XX  MOV Rd,Rs  BTST n,XX  OR,AND,TST CC,#XX  PG b
 
-MOV,TSZ,TSNZ #X,(Xi)  OR,AND,TSZ,TSNZ CC,#xX  MOV xX,X+  LD,ST Ri,xX R,xX  JMP,JSR XX
+CTST,NTST  MOV,TST xX,X+ xX,Y+ #XX,(X) #XX,(Y)  LDA,LDB p,-X p,X+ p,-Y p,Y+  STA,STB -X X+ -Y Y+  JMP,JSR,JEQ,JNE XXX
 
 
 Nyquest
@@ -16,3 +16,4 @@ Tritan mcu
 Upt mcu
 Everest Pacific
 EM micro elec
+
